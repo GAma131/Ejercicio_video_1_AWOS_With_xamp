@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="form.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form action="../php/index.php" method="GET">
+      <div class="elimn form-row">
+        <div class="col-md-3 mb-3">
+          <label for="validationServer05">ID</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inpID"
+            name="inpID"
+            placeholder="id del Usuario"
+            required
+          />
+        </div>
+      </div>
+      <div class="btns">
+        <button class="btns btn-dark btn-lg" type="submit">Buscar</button>
+      </div>
+    </form>
+  </body>
+</html>
